@@ -67,7 +67,6 @@ class FeedTest extends PHPUnit_Framework_TestCase
 		$this->assertEquals('http://foobar.dev/someThing.jpg', $items[0]['enclosure']['url']);
 		$this->assertEquals('testCategory', $items[0]['category']);
 		$this->assertEquals('testSubtitle', $items[0]['subtitle']);
-		$this->assertEquals('https://damianoff.com/cover.jpg', $items['itemcover']);
 	}
 
 	public function testFeedAddItem()
